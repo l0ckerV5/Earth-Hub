@@ -1,0 +1,149 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("Earth Hub", "YH EDITION")
+
+local mainColor = Color3.fromRGB(46, 204, 64)
+
+local secondColor = Color3.fromRGB(0, 119, 255)
+
+window:SetTheme(mainColor, secondColor)
+
+local tab = DrRayLibrary.newTab("Locks", "17155750103")
+
+tab.newButton("l0ckerV5's Lock", "Da Hood Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/l0ckerV5/roblox/main/l0ckerV5-lock"))();
+end)
+
+tab.newButton("Aura X", "Payed Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k0nkx/Aura-x-skid-ez-remake-by-k0nkx/main/Sigma"))()
+end)
+
+tab.newButton("Blazed", "Payed Script", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/s6z33Lhu"))()
+end)
+
+tab.newButton("Azure", "Good Lock", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zZAAFsHn"))()
+end)
+
+tab.newButton("Red Dot", "Keybind: C", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/z1uuW7Az"))()
+end)
+
+tab.newButton("Astro Dot", "Another dot lock!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JKGuW6qU"))()
+end)
+
+tab.newButton("Kals Lock", "Kal skidded this!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/chTFtWr3"))()
+end)
+
+tab.newButton("Thusky Lock", "Lock by thusky!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/T1kppBjN"))()
+end)
+
+tab.newButton("Vio's Lock", "Vio skidding this!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TRX2wEGH"))();
+end)
+
+local tab = DrRayLibrary.newTab("Camlocks", "17155750103)
+
+tab.newButton("Nyula", "Best Camlocks of all time!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyulauh"))();
+end)
+
+tab.newButton("Random Streamable", "My favourite!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/61zwym8L"))();
+end)
+
+tab.newButton("Best Da Hood Camlock", "The best camlock!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ADdYJ0kz"))();
+end)
+
+tab.newButton("Earh Lock", "Scripted by us!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/l0ckerV5/Roblox-ExpIoits/main/Earth-Lock%25PAYED"))();
+end)
+
+tab.newButton("Private Camlock", "Recommended for all Hood games!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/yzDg3Xk2"))();
+end)
+
+
+local tab = DrRayLibrary.newTab("Silent's", "17155750103)
+
+tab.newButton("Mobile Silent", "Circle Stays In The Middle!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/3JgkmNU6"))();
+end)
+
+local tab = DrRayLibrary.newTab("GUI's", "17155750103)
+
+tab.newButton("l0ckerV5's Hub", "Lock Vault!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/l0ckerV5/robIox/main/l0ckerV5-HUB"))();
+end)
+
+tab.newButton("Swagmode V4", "One of the best da hood scripts!", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+tab.newButton("Faded", "Fun Stuff!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/P1K1K2YS"))();
+end)
+
+tab.newButton("Raycodex", "A Da Hood GUI!", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+local tab = DrRayLibrary.newTab("Misc", "17155750103")
+
+tab.newButton("Q Tool", "For Locks", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4MNVKY9Q"))();
+end)
+
+tab.newButton("C Tool", "For Locks", function() loadstring(game:HttpGet("https://pastebin.com/raw/dskgmXqe"))();
+end)
+
+tab.newButton("E Tool", "For Locks", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/FRk8ALUu"))();
+end)
+
+tab.newButton("P Tool", "For Locks", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/GkaCFqfJ", true))()
+end)
+
+tab.newButton("V Tool", "For Locks", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/CmEz6KYV"))();
+end)
+
+tab.newButton("GS21 Commands", "Fake Swagmode Premium", function() loadstring(game:HttpGethttps://pastebin.com/raw/du0AWtqd"))();
+end)
+
+tab.newButton("FPS Booster", "Get rid of lag! ", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/qQtE2hLr"))();
+end)
+
+local tab = DrRayLibrary.newTab("Admins", "17155750103)
+
+tab.newButton("Reviz Admin", "For ", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/SdfBVYDA"))();
+end)
+
+tab.newButton("Infinite Yield", "For ", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+tab.newButton("Nameless Admin", "For ", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+end)
+
+local tab = DrRayLibrary.newTab("LocalPlayer", "17155750103")
+
+tab.newSlider("WalkSpeed", "Custom Speed", 1000, false, function(num)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = num
+end)
+
+tab.newSlider("JumpPower", "Custom Jump Height", 1000, false, function(num) game.Players.LocalPlayer.Character.Humanoid.JumpPower = num
+end)
+
+tab.newInput("Health", "Not for all hood games", function(text)
+game.Players.LocalPlayer.Character.Humanoid.Health = text
+end)
